@@ -162,7 +162,3 @@ input[type="radio"]:disabled {
 .language-python{
     border-radius: 10px;
 }
-.foot{
-    background-color: rgba(20, 20, 20, 0.76);
-    height: 5rem;
-}
