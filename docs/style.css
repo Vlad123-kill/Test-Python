@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial;
+    background: linear-gradient(to bottom right, rgba(9, 199, 72, 0.952), rgb(248, 5, 147));
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    text-shadow: 2px 2px 15px rgba(255, 255, 255, 0.39);
+}
+
+.main > ol{
+    padding-left: 0;
+    margin-right: 1%;
+}
+.main > ol > div{
+    margin-bottom: 5%;
+    padding: 0.01% 15% 2% 10%;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.205);
+    box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.404);
+}
+.moduls{
+    background-color: rgba(124, 124, 124, 0.404);
+    position:fixed;
+    overflow-y: auto;
+    top:0;
+    right:0;
+    height: 100%;
+    width:20%;
+    box-shadow: 2px 2px 15px rgba(56, 56, 56, 0.288);
+}
+.moduls > ol {
+    padding: 0 20% 0 20px;
+    text-shadow: 2px 2px 15px rgba(231, 231, 231, 0.849);
+}
+.moduls li{
+    margin-bottom: 5%;
+}
+.moduls a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+.moduls a:hover:not(:disabled){
+    position: relative;
+    bottom: 0.5vh;
+    font-size: 1.05rem;
+    color: rgba(230, 230, 230, 0.945)
+}
+.moduls a:active{
+    filter: brightness(90%);
+}
+
+.print, .oper{
+    scroll-margin-top: 10vh; 
+}
+
+.head{
+    text-align: center;
+    font-family: Courier New;
+}
+.main {
+    margin:0 20% 0 3%;
+}
+.answer {
+    border: solid 0;
+    background-color: rgba(10, 123, 253, 0.212);
+    color: rgba(21, 84, 219, 0.781);
+    font-weight: bold;
+    padding: 6px 15px;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px #666;
+}
+.container-2colm {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 15px;
+    width: 100%;
+}
+.container-3colm {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    row-gap: 15px;
+    width: 100%;
+}
+.container-4colm {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    row-gap: 15px;
+    width: 100%;
+}
+.container-auto {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(25%, 1fr));
+    row-gap: 15px;
+    width: 100%;
+}
+.container-1colm {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 15px;
+}
+input[type="checkbox"]{
+    appearance: none;
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 1px solid #6e9bdf;
+    border-radius: 0.25rem;
+    background-color: rgba(255, 255, 255, 0.541);
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin: 0 3px;
+}
+input[type="checkbox"]:active {
+    filter: brightness(90%);
+}
+input[type="checkbox"]:hover:not(:disabled) {
+    border-color: #0d6efd;
+}
+input[type="checkbox"]:checked{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+}
+input[type="checkbox"]:disabled {
+    filter: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.541);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin: 0 3px;
+}
+
+input[type="radio"]:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+input[type="radio"]:disabled {
+    filter: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.language-python{
+    border-radius: 10px;
+}
+.foot{
+    background-color: rgba(20, 20, 20, 0.76);
+    height: 5rem;
+}

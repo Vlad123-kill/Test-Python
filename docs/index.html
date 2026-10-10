@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Интерактивный тест по Python</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/vs2015.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    </head>
+    <body>
+        <nav class="moduls">
+            <h3 style="margin-left: 10%;">Модули</h3>
+            <ol> 
+            </ol>
+        </nav>
+        <main class="main">
+            <h1 class="head" style="text-align:center;">Тест по Python</h1>
+            <h3>Привет! Ты находишся на сайте, в котором сможеш узнать новые и закрепить старые знания в Python, отвечая на вопросы по разным темам!</h3>
+            <h3>Желаю удачи!</h3>
+            <ol>
+                <div>
+                    <li>
+                        <h2>
+                            Ввод и вывод, переменные и типы данных.
+                        </h2>
+                    </li>
+                    <h3>Какая функция в Python отвечает за вывод информации в консоль?</h3>
+                    <form>
+                        <label>
+                            <input type="radio">int()
+                        </label>
+                        <label>
+                            <input type="radio">if
+                        </label>
+                        <label>
+                            <input type="radio">print()
+                        </label>
+                    </form> <br>
+                    <h3>Какая функция в Python отвечает за ввод информации от пользователя?</h3>
+                    <form>
+                        <label>
+                            <input type="radio">input()
+                        </label>
+                        <label>
+                            <input type="radio">.append()
+                        </label>
+                        <label>
+                            <input type="radio">type()
+                        </label>
+                    </form> <br>
+                    <h3>Выберите из следующего списка типы данных в Python, не учитывая коллекции (списки, кортежи и тд, кроме строк).</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="checkbox">int
+                        </label>
+                        <label>
+                            <input type="checkbox">13
+                        </label>
+                        <label>
+                            <input type="checkbox">True
+                        </label>
+                        <label>
+                            <input type="checkbox">bool
+                        </label>
+                        <label>
+                            <input type="checkbox">False
+                        </label>
+                        <label>
+                            <input type="checkbox">str
+                        </label>
+                    </form> <br>
+                    <h3>Что такое переменные в Python?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Это некие файловые системы, с помощью которых можно взаимодействовать с кодом.
+                        </label>
+                        <label>
+                            <input type="radio">Это хранилища данных в коде, которые имеют имя и значение.
+                        </label>
+                        <label>
+                            <input type="radio">Это хранилища даннных, в которых хранится элемент(-ы), и каждый индексирован.
+                        </label>
+                    </form> <br>
+                    <button class="print answer">Ответить</button>
+                </div>
+                
+                <div>
+                    <li>
+                        <h2>
+                            Операторы сравнения, арефметические операторы, логические операторы.
+                        </h2>
+                    </li>
+                    <h3>Какие есть операторы сравнения в Python?</h3>
+                    <form class="container-4colm">
+                        <label>
+                            <input type="checkbox">=
+                        </label>
+                        <label>
+                            <input type="checkbox">!==
+                        </label>
+                        <label>
+                            <input type="checkbox">==
+                        </label>
+                        <label>
+                            <input type="checkbox">!=
+                        </label>
+                        <label>
+                            <input type="checkbox">and
+                        </label>
+                        <label>
+                            <input type="checkbox">||
+                        </label>
+                        <label>
+                            <input type="checkbox">&lt;
+                        </label>
+                        <label>
+                            <input type="checkbox">&gt;
+                        </label>
+                        <label>
+                            <input type="checkbox">&gt;=
+                        </label>
+                        <label>
+                            <input type="checkbox">or
+                        </label>
+                        <label>
+                            <input type="checkbox">&lt;=
+                        </label>
+                        <label>
+                            <input type="checkbox">is
+                        </label>
+                    </form> <br>
+                    <h3>Какой оператор сравнения в Python проверяет, равен ли один объект другому?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">and
+                        </label>
+                        <label>
+                            <input type="radio">!=
+                        </label>
+                        <label>
+                            <input type="radio">=
+                        </label>
+                        <label>
+                            <input type="radio">===
+                        </label>
+                        <label>
+                            <input type="radio">>
+                        </label>
+                        <label>
+                            <input type="radio">==
+                        </label>
+                    </form> <br>
+                    <h3>Выберите из следующего списка логические операторы в Python.</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="checkbox">is
+                        </label>
+                        <label>
+                            <input type="checkbox">or
+                        </label>
+                        <label>
+                            <input type="checkbox">!=
+                        </label>
+                        <label>
+                            <input type="checkbox">len()
+                        </label>
+                        <label>
+                            <input type="checkbox">and
+                        </label>
+                        <label>
+                            <input type="checkbox">not
+                        </label>
+                    </form> <br>
+                    <h3>Какой тип данных возвращают операторы сравнения и логические операторы?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">Hello
+                        </label>
+                        <label>
+                            <input type="radio">str
+                        </label>
+                        <label>
+                            <input type="radio">int
+                        </label>
+                        <label>
+                            <input type="radio">37
+                        </label>
+                        <label>
+                            <input type="radio">float
+                        </label>
+                        <label>
+                            <input type="radio">bool
+                        </label>
+                    </form> <br>
+                    <h3>Выберите из следующего списка арефметические операторы в Python.</h3>
+                    <form class="container-4colm">
+                        <label>
+                            <input type="checkbox">++
+                        </label>
+                        <label>
+                            <input type="checkbox">-
+                        </label>
+                        <label>
+                            <input type="checkbox">-=
+                        </label>
+                        <label>
+                            <input type="checkbox">*
+                        </label>
+                        <label>
+                            <input type="checkbox">//
+                        </label>
+                        <label>
+                            <input type="checkbox">&&
+                        </label>
+                        <label>
+                            <input type="checkbox">+
+                        </label>
+                        <label>
+                            <input type="checkbox">^
+                        </label>
+                        <label>
+                            <input type="checkbox">/
+                        </label>
+                        <label>
+                            <input type="checkbox">**
+                        </label>
+                        <label>
+                            <input type="checkbox">#
+                        </label>
+                        <label>
+                            <input type="checkbox">%
+                        </label>
+                    </form> <br>
+                    <h3>С помощью какого оператора в Python из чисел 13 и 14 получили -1?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">+
+                        </label>
+                        <label>
+                            <input type="radio">&lt;
+                        </label>
+                        <label>
+                            <input type="radio">/
+                        </label>
+                        <label>
+                            <input type="radio">and
+                        </label>
+                        <label>
+                            <input type="radio">%
+                        </label>
+                        <label>
+                            <input type="radio">-
+                        </label>
+                    </form> <br>
+                    <button class="oper answer">Ответить</button>
+                </div>
+                <div>
+                    <li>
+                        <h2>
+                            Операторы присваивания, преобразование типов данных, условия.
+                        </h2>
+                    </li>
+                    <h3>Какие есть операторы присваивания в Python?</h3>
+                    <form class="container-4colm">
+                        <label>
+                            <input type="checkbox">=
+                        </label>
+                        <label>
+                            <input type="checkbox">&
+                        </label>
+                        <label>
+                            <input type="checkbox">^
+                        </label>
+                        <label>
+                            <input type="checkbox">+=
+                        </label>
+                        <label>
+                            <input type="checkbox">=+
+                        </label>
+                        <label>
+                            <input type="checkbox">=-
+                        </label>
+                        <label>
+                            <input type="checkbox">-=
+                        </label>
+                        <label>
+                            <input type="checkbox">$
+                        </label>
+                        <label>
+                            <input type="checkbox">*
+                        </label>
+                        <label>
+                            <input type="checkbox">/=
+                        </label>
+                        <label>
+                            <input type="checkbox">#
+                        </label>
+                        <label>
+                            <input type="checkbox">*=
+                        </label>
+                        <label>
+                            <input type="checkbox">==
+                        </label>
+                        <label>
+                            <input type="checkbox">**=
+                        </label>
+                        <label>
+                            <input type="checkbox">++
+                        </label>
+                        <label>
+                            <input type="checkbox">--
+                        </label>
+                        <label>
+                            <input type="checkbox">//=
+                        </label>
+                        <label>
+                            <input type="checkbox">%=
+                        </label>
+                        <label>
+                            <input type="checkbox">%
+                        </label>
+                        <label>
+                            <input type="checkbox">/
+                        </label>
+                    </form> <br>
+                    <h3>С помощью какого оператора присваивания <em>x</em> стал равен 3, при присваивании 2 к <em>x</em> (<em>x = 7</em>)?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">+
+                        </label>
+                        <label>
+                            <input type="radio">==
+                        </label>
+                        <label>
+                            <input type="radio">+=
+                        </label>
+                        <label>
+                            <input type="radio">/=
+                        </label>
+                        <label>
+                            <input type="radio">=
+                        </label>
+                        <label>
+                            <input type="radio">//=
+                        </label>
+                    </form> <br>
+                    <h3>Выберите из следующего списка все функции преобразования типов данных в Python.</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="checkbox">bool()
+                        </label>
+                        <label>
+                            <input type="checkbox">function()
+                        </label>
+                        <label>
+                            <input type="checkbox">.remove()
+                        </label>
+                        <label>
+                            <input type="checkbox">str()
+                        </label>
+                        <label>
+                            <input type="checkbox">string()
+                        </label>
+                        <label>
+                            <input type="checkbox">int()
+                        </label>
+                        <label>
+                            <input type="checkbox">for
+                        </label>
+                        <label>
+                            <input type="checkbox">float()
+                        </label>
+                        <label>
+                            <input type="checkbox">.upper()
+                        </label>
+                    </form> <br>
+                    <h3>Какая функция преобразует строку со значением числа (например, "255") в целое число?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">print()
+                        </label>
+                        <label>
+                            <input type="radio">.pop()
+                        </label>
+                        <label>
+                            <input type="radio">int()
+                        </label>
+                        <label>
+                            <input type="radio">bool()
+                        </label>
+                        <label>
+                            <input type="radio">type()
+                        </label>
+                        <label>
+                            <input type="radio">str()
+                        </label>
+                    </form> <br>
+                    <h3>Какой оператор проверяет условие в Python, и после условия выполняется его блок кода?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">for
+                        </label>
+                        <label>
+                            <input type="radio">open()
+                        </label>
+                        <label>
+                            <input type="radio">with
+                        </label>
+                        <label>
+                            <input type="radio">from
+                        </label>
+                        <label>
+                            <input type="radio">if
+                        </label>
+                        <label>
+                            <input type="radio">.copy()
+                        </label>
+                    </form> <br>
+                    <h3>Какой оператор условия выполняется, если предыдущее условие было ложным?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">elif
+                        </label>
+                        <label>
+                            <input type="radio">while
+                        </label>
+                        <label>
+                            <input type="radio">catch
+                        </label>
+                        <label>
+                            <input type="radio">else
+                        </label>
+                        <label>
+                            <input type="radio">import
+                        </label>
+                        <label>
+                            <input type="radio">filter()
+                        </label>
+                    </form> <br>
+                    <h3>Какой блок кода выполнится в следующем коде:</h3>
+                    <pre><code class="language-python">
+x = 6
+y = 7
+if x == y:
+    print("X равен Y")
+elif x &gt; y:
+    print("X больше Y")
+else:
+    print("X не равен или меньше Y")
+                    </code></pre>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Блок if
+                        </label>
+                        <label>
+                            <input type="radio">Блок elif
+                        </label>
+                        <label>
+                            <input type="radio">Блок else
+                        </label>
+                        <label>
+                            <input type="radio">Никакой блок не выполнится
+                        </label>
+                        <label>
+                            <input type="radio">Код закончится с ошибкой
+                        </label>
+                    </form> <br>
+                    <button class="typeConv answer">Ответить</button>
+                </div>
+                <div>
+                    <li>
+                        <h2>
+                            Циклы, списки и операции с ними.
+                        </h2>
+                    </li>
+                    <h3>Какие операторы в Python служат для создания циклов?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="checkbox">def
+                        </label>
+                        <label>
+                            <input type="checkbox">switch
+                        </label>
+                        <label>
+                            <input type="checkbox">for
+                        </label>
+                        <label>
+                            <input type="checkbox">else
+                        </label>
+                        <label>
+                            <input type="checkbox">while
+                        </label>
+                        <label>
+                            <input type="checkbox">try
+                        </label>
+                    </form> <br>
+                    <h3>Какой оператор цикла делает цикл за счёт перебора коллекции?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">switch
+                        </label>
+                        <label>
+                            <input type="radio">while
+                        </label>
+                        <label>
+                            <input type="radio">for
+                        </label>
+                        <label>
+                            <input type="radio">else
+                        </label>
+                        <label>
+                            <input type="radio">if
+                        </label>
+                        <label>
+                            <input type="radio">from
+                        </label>
+                    </form> <br>
+                    <h3>Какой оператор цикла имеет условие в проверке?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">for
+                        </label>
+                        <label>
+                            <input type="radio">switch
+                        </label>
+                        <label>
+                            <input type="radio">def
+                        </label>
+                        <label>
+                            <input type="radio">else
+                        </label>
+                        <label>
+                            <input type="radio">while
+                        </label>
+                        <label>
+                            <input type="radio">try
+                        </label>
+                    </form> <br>
+                    <h3>Что такое список?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Это коллекция, которая хранит список уникальных элементов.
+                        </label>
+                        <label>
+                            <input type="radio">Это тип данных, который имеет значение числа.
+                        </label>
+                        <label>
+                            <input type="radio">Это тип данных, который хранит список элементов, каждый из которых имеет свой индекс(номер).
+                        </label>
+                    </form> <br>
+                    <h3>Какой(-ие) тип(-ы) данных может хранить в себе список?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">int
+                        </label>
+                        <label>
+                            <input type="radio">str
+                        </label>
+                        <label>
+                            <input type="radio">Все типы данных, которые есть в Python
+                        </label>
+                    </form> <br>
+                    <h3>Выберите из следующего списка методы, которые есть у списка в Python.</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="checkbox">.insert()
+                        </label>
+                        <label>
+                            <input type="checkbox">.union()
+                        </label>
+                        <label>
+                            <input type="checkbox">.pop()
+                        </label>
+                        <label>
+                            <input type="checkbox">.add()
+                        </label>
+                        <label>
+                            <input type="checkbox">.replace()
+                        </label>
+                        <label>
+                            <input type="checkbox">.append()
+                        </label>
+                    </form> <br>
+                    <h3>С помощью каких двух функций можно найти минимальный и максимальный элементы в списке?</h3>
+                    <form>
+                        <label>
+                            <input type="checkbox">int()
+                        </label>
+                        <label>
+                            <input type="checkbox">bool()
+                        </label>
+                        <label>
+                            <input type="checkbox">min()
+                        </label>
+                        <label>
+                            <input type="checkbox">minimum()
+                        </label>
+                        <label>
+                            <input type="checkbox">maximum()
+                        </label>
+                        <label>
+                            <input type="checkbox">max()
+                        </label>
+                    </form> <br>
+                    <h3>Какой синтаксис имеет генератор списка с условием (if и else)?</h3>
+                    <form class="container-2colm">
+                        <label>
+                            <input type="radio">[for i in list if условие значение_if else значение_else]
+                        </label>
+                        <label>
+                            <input type="radio">[значение_if if условие else значение_else for i in list]
+                        </label>
+                        <label>
+                            <input type="radio">[значение_if for i in list if условие else значение_else]
+                        </label>
+                        <label>
+                            <input type="radio">[if условие значение_if else значение_else for i in list]
+                        </label>
+                    </form>
+                    <h3>Какой результат будет в консоли в коде:</h3>
+                    <pre><code class="language-python">
+x = 7
+y = 24
+h = 13
+s = [x, y, h]
+print(sum(s))
+                    </code></pre>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">7
+                        </label>
+                        <label>
+                            <input type="radio">24
+                        </label>
+                        <label>
+                            <input type="radio">44
+                        </label>
+                        <label>
+                            <input type="radio">4
+                        </label>
+                        <label>
+                            <input type="radio">Код завершится с ошибкой
+                        </label>
+                    </form> <br>
+                    <h3>Какое значение будет иметь <em>x</em> по завершению кода:</h3>
+                    <pre><code class="language-python">
+x = 5
+y = 2
+for i in range(5):
+    y += i
+    x = y
+                    </code></pre>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">12
+                        </label>
+                        <label>
+                            <input type="radio">7
+                        </label>
+                        <label>
+                            <input type="radio">5
+                        </label>
+                        <label>
+                            <input type="radio">122
+                        </label>
+                        <label>
+                            <input type="radio">50
+                        </label>
+                    </form> <br>
+                    <h3>Что отобразится в консоли в коде:</h3>
+                    <pre><code class="language-python">
+x = 5
+while x &lt;= 100:
+    if x == 5:
+        x += 1
+        continue
+    if 95 > x > 5:
+        x += 5
+        continue
+    break
+print(x)
+                    </code></pre>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">5
+                        </label>
+                        <label>
+                            <input type="radio">6
+                        </label>
+                        <label>
+                            <input type="radio">95
+                        </label>
+                        <label>
+                            <input type="radio">96
+                        </label>
+                        <label>
+                            <input type="radio">100
+                        </label>
+                        <label>
+                            <input type="radio">Код завершится с ошибкой
+                        </label>
+                    </form> <br>
+                    <button class="cycles answer">Ответить</button>
+                </div>
+                <div>
+                    <li>
+                        <h2>
+                            Функции, кортежи, словари, множества и операции со строками.
+                        </h2>
+                    </li>
+                    <h3>Что такое функция?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Это именованный блок кода, который выполняет какую-то задачу и может быть вызван в коде.
+                        </label>
+                        <label>
+                            <input type="radio">Это команда, которая выполняет какую-то задачу только со списками.
+                        </label>
+                        <label>
+                            <input type="radio">Это оператор, который импортирует файлы в код.
+                        </label>
+                    </form> <br>
+                    <h3>Какой оператор в Python создаёт функцию?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">while
+                        </label>
+                        <label>
+                            <input type="radio">if
+                        </label>
+                        <label>
+                            <input type="radio">def
+                        </label>
+                        <label>
+                            <input type="radio">for
+                        </label>
+                        <label>
+                            <input type="radio">import
+                        </label>
+                        <label>
+                            <input type="radio">function
+                        </label>
+                    </form> <br>
+                    <h3>Что такое кортеж?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Это коллекция, которая хранит именуемые элементы в виде <em>ключ: значение</em>.
+                        </label>
+                        <label>
+                            <input type="radio">Это коллекция, которая хранит полностью изменяемый список элементов, каждый из которых имеет индекс (номер).
+                        </label>
+                        <label>
+                            <input type="radio">Это коллекция, которая хранит неизменяемый список элементов, каждый из которых имеет индекс (номер).
+                        </label>
+                    </form> <br>
+                    <h3>Какое главное отличие кортежа от списка?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Кортеж изменяемый, а список неизменяемый.
+                        </label>
+                        <label>
+                            <input type="radio">Кортеж неизменяемый, а список изменяемый.
+                        </label>
+                        <label>
+                            <input type="radio">Элементы списка пронумерованы (имеют индекс), а элементы кортежа - нет.
+                        </label>
+                    </form> <br>
+                    <h3>Какой синтаксис имеет словарь?</h3>
+                    <form class="container-2colm">
+                        <label>
+                            <input type="radio"><em>значение: ключ</em>
+                        </label>
+                        <label>
+                            <input type="radio"><em>свойство: значение</em>
+                        </label>
+                        <label>
+                            <input type="radio">Просто список элементов
+                        </label>
+                        <label>
+                            <input type="radio"><em>ключ: значение</em>
+                        </label>
+                    </form> <br>
+                    <h3>С помощью какого метода можно удалить элемент словаря?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">.remove()
+                        </label>
+                        <label>
+                            <input type="radio">.pop()
+                        </label>
+                        <label>
+                            <input type="radio">.delete()
+                        </label>
+                        <label>
+                            <input type="radio">.append()
+                        </label>
+                        <label>
+                            <input type="radio">.add()
+                        </label>
+                        <label>
+                            <input type="radio">Элементы словаря нельзя удалить
+                        </label>
+                    </form> <br>
+                    <h3>Что такое множество?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Это коллекция, которая хранит список уникальных элементов, которые не упорядочны (не имеют номера).
+                        </label>
+                        <label>
+                            <input type="radio">Это коллекция, которая хранит неизменяемый список элементов, каждый из которых имеет индекс.
+                        </label>
+                        <label>
+                            <input type="radio">Это оператор, который перебирает элементы списка, выполняя над ними какие-либо операции.
+                        </label>
+                    </form> <br>
+                    <h3>Выберите из следующего списка методы, которые есть у множества.</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="checkbox">.append()
+                        </label>
+                        <label>
+                            <input type="checkbox">.add()
+                        </label>
+                        <label>
+                            <input type="checkbox">.delete()
+                        </label>
+                        <label>
+                            <input type="checkbox">.remove()
+                        </label>
+                        <label>
+                            <input type="checkbox">.reduce()
+                        </label>
+                        <label>
+                            <input type="checkbox">.insert()
+                        </label>
+                        <label>
+                            <input type="checkbox">.union()
+                        </label>
+                        <label>
+                            <input type="checkbox">.upper()
+                        </label>
+                        <label>
+                            <input type="checkbox">.difference()
+                        </label>
+                    </form> <br>
+                    <h3>С помощью какого метода в Python можно изменить в строке какие-то символы на другие (например, все найденные "вш" заменить на "ук")?</h3>
+                    <form class="container-2colm">
+                        <label>
+                            <input type="radio">.rename()
+                        </label>
+                        <label>
+                            <input type="radio">.reduce()
+                        </label>
+                        <label>
+                            <input type="radio">.replace()
+                        </label>
+                        <label>
+                            <input type="radio">.upper()
+                        </label>
+                    </form> <br>
+                    <h3>С помощью каких двух методов можно сделать все буквы строки в верхний регистр или нижний?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="checkbox">.replace()
+                        </label>
+                        <label>
+                            <input type="checkbox">.upper()
+                        </label>
+                        <label>
+                            <input type="checkbox">.append()
+                        </label>
+                        <label>
+                            <input type="checkbox">.endswith()
+                        </label>
+                        <label>
+                            <input type="checkbox">.startswith()
+                        </label>
+                        <label>
+                            <input type="checkbox">.lower()
+                        </label>
+                    </form> <br>
+                    <h3>Что будет выведено в консоль, после выполнения кода:</h3>
+                    <pre><code class="language-python">
+def setSum(x, y):
+    x.append(y * (y - 1))
+s = []
+for i in range(3):
+    setSum(s, i)
+print(s)
+                    </code></pre>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">2
+                        </label>
+                        <label>
+                            <input type="radio">[0, 2, 6]
+                        </label>
+                        <label>
+                            <input type="radio">[-1, 0, 2]
+                        </label>
+                        <label>
+                            <input type="radio">[0, 0, 2]
+                        </label>
+                        <label>
+                            <input type="radio">Код завершится с ошибкой
+                        </label>
+                    </form> <br>
+                    <h3>Какие элементы будут находится по итогу в переменной <em>s</em> в коде:</h3>
+                    <pre><code class="language-python">
+s = {}
+x = 1
+y = 2
+while len(s) &lt;= 6:
+    s.add(x)
+    x += y
+                    </code></pre>
+                    <form class="container-auto">
+                        <label>
+                            <input type="checkbox">2
+                        </label>
+                        <label>
+                            <input type="checkbox">1
+                        </label>
+                        <label>
+                            <input type="checkbox">6
+                        </label>
+                        <label>
+                            <input type="checkbox">10
+                        </label>
+                        <label>
+                            <input type="checkbox">7
+                        </label>
+                        <label>
+                            <input type="checkbox">3
+                        </label>
+                        <label>
+                            <input type="checkbox">20
+                        </label>
+                        <label>
+                            <input type="checkbox">4
+                        </label>
+                        <label>
+                            <input type="checkbox">5
+                        </label>
+                        <label>
+                            <input type="checkbox">8
+                        </label>
+                        <label>
+                            <input type="checkbox">9
+                        </label>
+                        <label>
+                            <input type="checkbox">12
+                        </label>
+                        <label>
+                            <input type="checkbox">11
+                        </label>
+                        <label>
+                            <input type="checkbox">18
+                        </label>
+                    </form> <br>
+                    <button class="funcStr answer">Ответить</button>
+                </div>
+                <div>
+                    <li>
+                        <h2>
+                            Классы, объектно-ориентированное программирование и модули.
+                        </h2>
+                    </li>
+                    <h3>Что такое класс?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Это имя элемента, с помощью которого можно устанавливать на элемент функции.
+                        </label>
+                        <label>
+                            <input type="radio">Это шаблон для создания объектов, который описывает, какие данные будут хранить объекты и какие функции они могут выполнять.
+                        </label>
+                        <label>
+                            <input type="radio">Это функция, которая вызывает саму себя в блоке кода.
+                        </label>
+                    </form> <br>
+                    <h3>С помощью какого оператора в Python можно создать класс?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">import
+                        </label>
+                        <label>
+                            <input type="radio">from
+                        </label>
+                        <label>
+                            <input type="radio">class
+                        </label>
+                        <label>
+                            <input type="radio">clas
+                        </label>
+                        <label>
+                            <input type="radio">def
+                        </label>
+                        <label>
+                            <input type="radio">for
+                        </label>
+                    </form> <br>
+                    <h3>В какой секции находятся атрибуты класса в коде:</h3>
+                    <pre><code class="language-python">
+class Name:
+    n = 1    #\
+    n2 = 2   # } <em>a)</em>
+    _n3 = 3  #/
+
+    def __init__(self, d, d2, d3):
+        self.d = d    #\
+        self.d2 = d2  # } <em>b)</em>
+        self.d3 = d3  #/
+    
+    def getN3(self):        #\
+        print(_n3)          # \
+                            #  } <em>c)</em>
+    def sumN(self):         # /
+        print(n + n2 + _n3) #/
+                    </code></pre>
+                    <form class="container-2colm">
+                        <label>
+                            <input type="radio">a)
+                        </label>
+                        <label>
+                            <input type="radio">b)
+                        </label>
+                        <label>
+                            <input type="radio">c)
+                        </label>
+                        <label>
+                            <input type="radio">Все перечисленные
+                        </label>
+                    </form> <br>
+                    <h3>Какое имя конструктора в классе в Python?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">super()
+                        </label>
+                        <label>
+                            <input type="radio">__str__
+                        </label>
+                        <label>
+                            <input type="radio">__init__
+                        </label>
+                        <label>
+                            <input type="radio">def
+                        </label>
+                        <label>
+                            <input type="radio">__new__
+                        </label>
+                    </form> <br>
+                    <h3>Выберите из седующего списка все магические (dunder) методы класса в Python.</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="checkbox">__new__
+                        </label>
+                        <label>
+                            <input type="checkbox">for
+                        </label>
+                        <label>
+                            <input type="checkbox">__init__
+                        </label>
+                        <label>
+                            <input type="checkbox">def
+                        </label>
+                        <label>
+                            <input type="checkbox">while
+                        </label>
+                        <label>
+                            <input type="checkbox">__str__
+                        </label>
+                        <label>
+                            <input type="checkbox">__format__
+                        </label>
+                        <label>
+                            <input type="checkbox">__name__
+                        </label>
+                        <label>
+                            <input type="checkbox">__del__
+                        </label>
+                    </form> <br>
+                    <h3>Что такое инкапсуляция?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Это то, когда один класс наследует содержимое от другого класса.
+                        </label>
+                        <label>
+                            <input type="radio">Это одно повторение цикла.
+                        </label>
+                        <label>
+                            <input type="radio">Это понятие в ООП, которое говорит, что связанные данные и функции объединены в одном объекте.
+                        </label>
+                    </form> <br>
+                    <h3>Что происходит в коде:</h3>
+                    <pre><code class="language-python">
+class Pet:
+    def eat(self):
+        print("Ням-ням")
+class Dog(Pet):
+    def voice(self):
+        print("ГАВ-ГАВ!")
+                    </code></pre>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Собака лает
+                        </label>
+                        <label>
+                            <input type="radio">Класс <em>Pet</em> наследует метод <em>voice</em> от класса <em>Dog</em>
+                        </label>
+                        <label>
+                            <input type="radio">Класс <em>Dog</em> наследует метод <em>eat</em> от класса <em>Pet</em>
+                        </label>
+                    </form> <br>
+                    <h3>Что такое модуль в Python?</h3>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Это файл с кодом на Python (расширение .py), который можно подключить в другую программу.
+                        </label>
+                        <label>
+                            <input type="radio">Это объект, который группирует переменные и функции в блоке кода.
+                        </label>
+                        <label>
+                            <input type="radio">Это метод, который принимает в качестве параметра функцию.
+                        </label>
+                    </form> <br>
+                    <h3>Какой оператор в пайтон позволяет импортировать модуль в код?</h3>
+                    <form class="container-2colm">
+                        <label>
+                            <input type="radio">from
+                        </label>
+                        <label>
+                            <input type="radio">super
+                        </label>
+                        <label>
+                            <input type="radio">yield
+                        </label>
+                        <label>
+                            <input type="radio">import
+                        </label>
+                    </form> <br>
+                    <h3>С помощью какого оператора можно переименовать (визуально) модуль, когда его импортируешь?</h3>
+                    <form class="container-2colm">
+                        <label>
+                            <input type="radio">from
+                        </label>
+                        <label>
+                            <input type="radio">as
+                        </label>
+                        <label>
+                            <input type="radio">rename
+                        </label>
+                        <label>
+                            <input type="radio">edit
+                        </label>
+                    </form> <br>
+                    <h3>С помощью какого оператора можно вынуть из модуля какой(-ие)-то определённый(-ые) объект(ы)?</h3>
+                    <form class="container-2colm">
+                        <label>
+                            <input type="radio">yield
+                        </label>
+                        <label>
+                            <input type="radio">def
+                        </label>
+                        <label>
+                            <input type="radio">open
+                        </label>
+                        <label>
+                            <input type="radio">from
+                        </label>
+                    </form> <br>
+                    <h3>Что будет в консоли после выполнения кода (в ответе / обозначает, что следующий текст на следующей строке):</h3>
+                    <pre><code class="language-python">
+class Pet:
+    def __init__(self, voice = "Ням-ням", lenFood = 3):
+        self.voice = voice
+        self.lenFood = lenFood
+    def eat(self):
+        print(self.voice)
+        print(f"Питомец скушал {self.lenFood} кусочков колбасы.")
+dog = Pet("ГАВ-ГАВ")
+dog.eat()
+                    </code></pre>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">Ням-ням
+                        </label>
+                        <label>
+                            <input type="radio">Питомец скушал 3 кусочков колбасы.
+                        </label>
+                        <label>
+                            <input type="radio">Ням-ням / Питомец скушал 3 кусочков колбасы.
+                        </label>
+                        <label>
+                            <input type="radio">ГАВ-ГАВ / Питомец скушал 3 кусочков колбасы.
+                        </label>
+                        <label>
+                            <input type="radio">Ням-ням / Питомец скушал 0 кусочков колбасы.
+                        </label>
+                        <label>
+                            <input type="radio">ГАВ-ГАВ
+                        </label>
+                    </form> <br>
+                    <h3>Что выведет код в консоль:</h3>
+                    <pre><code class="language-python">
+class Human:
+    def __init__(self, name, years):
+        self.name = name
+        self.years = years
+    def getInfo(self):
+        print(f"Меня зовут {self.name}, мне {self.years} лет.")
+class Ivan(Human):
+    def __init__(self, name, years, food):
+        super.__init__(name, years)
+        self.food = food
+    def getInfo(self):
+        super.getInfo()
+        print(f"Я люблю {self.food}!")
+ivan = Ivan("Иван", "14", "бургеры")
+ivan.getInfo()
+                    </code></pre>
+                    <form class="container-2colm">
+                        <label>
+                            <input type="radio">Меня зовут Иван, мне 14 лет. / Я люблю бургеры!
+                        </label>
+                        <label>
+                            <input type="radio">Меня зовут Иван, мне 14 лет.
+                        </label>
+                        <label>
+                            <input type="radio">Я люблю бургеры!
+                        </label>
+                        <label>
+                            <input type="radio">Код завершается с ошибкой
+                        </label>
+                    </form> <br>
+                    <h3>Что выведет код:</h3>
+                    <pre><code class="language-python">
+import math
+from math import pi
+e = math.ceil(math.e)
+print(e)
+                    </code></pre>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">2
+                        </label>
+                        <label>
+                            <input type="radio">e
+                        </label>
+                        <label>
+                            <input type="radio">2,71
+                        </label>
+                        <label>
+                            <input type="radio">2,72
+                        </label>
+                        <label>
+                            <input type="radio">3
+                        </label>
+                        <label>
+                            <input type="radio">Код завершится с ошибкой
+                        </label>
+                    </form> <br>
+                    <button class="classOOP answer">Ответить</button>
+                </div>
+                <div>
+                    <li>
+                        <h2>
+                            Работа с файлами, обработка исключений.
+                        </h2>
+                    </li>
+                    <h3>С помощью какой функции в Python можно открыть файл?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">match
+                        </label>
+                        <label>
+                            <input type="radio">from
+                        </label>
+                        <label>
+                            <input type="radio">open()
+                        </label>
+                        <label>
+                            <input type="radio">.upper()
+                        </label>
+                        <label>
+                            <input type="radio">with
+                        </label>
+                        <label>
+                            <input type="radio">int()
+                        </label>
+                    </form> <br>
+                    <h3>Какие есть режимы открытия файла?</h3>
+                    <form class="container-4colm">
+                        <label>
+                            <input type="checkbox">read
+                        </label>
+                        <label>
+                            <input type="checkbox">w
+                        </label>
+                        <label>
+                            <input type="checkbox">r
+                        </label>
+                        <label>
+                            <input type="checkbox">write
+                        </label>
+                        <label>
+                            <input type="checkbox">s
+                        </label>
+                        <label>
+                            <input type="checkbox">a
+                        </label>
+                        <label>
+                            <input type="checkbox">v
+                        </label>
+                        <label>
+                            <input type="checkbox">b
+                        </label>
+                    </form> <br>
+                    <h3>Какой режим открывает файл для чтения?</h3>
+                    <form class="container-4colm">
+                        <label>
+                            <input type="radio">write
+                        </label>
+                        <label>
+                            <input type="radio">s
+                        </label>
+                        <label>
+                            <input type="radio">read
+                        </label>
+                        <label>
+                            <input type="radio">binary
+                        </label>
+                        <label>
+                            <input type="radio">a
+                        </label>
+                        <label>
+                            <input type="radio">r
+                        </label>
+                        <label>
+                            <input type="radio">append
+                        </label>
+                        <label>
+                            <input type="radio">v
+                        </label>
+                    </form> <br>
+                    <h3>Какой метод в Python закрывает файл?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">.filter()
+                        </label>
+                        <label>
+                            <input type="radio">.close()
+                        </label>
+                        <label>
+                            <input type="radio">.exit()
+                        </label>
+                        <label>
+                            <input type="radio">type()
+                        </label>
+                        <label>
+                            <input type="radio">.lock()
+                        </label>
+                        <label>
+                            <input type="radio">.quit()
+                        </label>
+                    </form> <br>
+                    <h3>Какой менеджмент в Python служит сокращеннием записи открытия файла, который сам закрывает его?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">from
+                        </label>
+                        <label>
+                            <input type="radio">import
+                        </label>
+                        <label>
+                            <input type="radio">with
+                        </label>
+                        <label>
+                            <input type="radio">manag
+                        </label>
+                        <label>
+                            <input type="radio">var
+                        </label>
+                        <label>
+                            <input type="radio">strench
+                        </label>
+                    </form> <br>
+                    <h3>Как выглядит конструкция обработки исключений?</h3>
+                    <form class="container-2colm">
+                        <label>
+                            <input type="radio">try/catch/finally
+                        </label>
+                        <label>
+                            <input type="radio">match/case
+                        </label>
+                        <label>
+                            <input type="radio">if/elif/else
+                        </label>
+                        <label>
+                            <input type="radio">try/except/else/finally
+                        </label>
+                    </form> <br>
+                    <h3>В каком блоке идёт проверка на ошибку (исключение)?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">if
+                        </label>
+                        <label>
+                            <input type="radio">finally
+                        </label>
+                        <label>
+                            <input type="radio">try
+                        </label>
+                        <label>
+                            <input type="radio">case
+                        </label>
+                        <label>
+                            <input type="radio">match
+                        </label>
+                        <label>
+                            <input type="radio">except
+                        </label>
+                    </form> <br>
+                    <h3>С помощью какого оператора в Python можно вызвать исключение вручную?</h3>
+                    <form class="container-3colm">
+                        <label>
+                            <input type="radio">raise
+                        </label>
+                        <label>
+                            <input type="radio">throw
+                        </label>
+                        <label>
+                            <input type="radio">with
+                        </label>
+                        <label>
+                            <input type="radio">from
+                        </label>
+                        <label>
+                            <input type="radio">cause
+                        </label>
+                        <label>
+                            <input type="radio">generate
+                        </label>
+                    </form> <br>
+                    <h3>Что происходит в коде:</h3>
+                    <pre><code class="language-python">
+file = open("C:\Users\User\file.txt", "r", encoding="utf-8")
+getText = file.read()
+file.close()
+print(getText)
+                    </code></pre>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Открывается файл для добавления текста и выводит в консоль всё содержимое файла.
+                        </label>
+                        <label>
+                            <input type="radio">Открывается файл для чтения и выводит в консоль всё содержимое.
+                        </label>
+                        <label>
+                            <input type="radio">Импортируется библиотека и выводит в консоль её документация.
+                        </label>
+                    </form> <br>
+                    <h3>Что будет в консоли после выполнения кода:</h3>
+                    <pre><code class="language-python">
+x = 5
+y = 6
+try:
+    x -= y - 1
+    y /= x
+    print("Всё отлично")
+except ZeroDivisionError as er:
+    print(f"Error: {er}")
+                    </code></pre>
+                    <form class="container-1colm">
+                        <label>
+                            <input type="radio">Всё отлично
+                        </label>
+                        <label>
+                            <input type="radio">Синтаксическая ошибка
+                        </label>
+                        <label>
+                            <input type="radio">Error: division by zero
+                        </label>
+                    </form> <br>
+                    <button class="fileExc answer">Ответить</button>
+                </div>
+            </ol>
+        </main>
+        <footer class="foot">
+
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
